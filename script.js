@@ -68,6 +68,8 @@ function startBoost() {
   isBoostActive = true;
   const body = document.body;
   body.style.backgroundImage = 'url("rocket.gif")';
+  body.style.backgroundSize = "cover";
+  body.style.backgroundPosition = "center";
   setTimeout(function () {
     isBoostActive = false;
     body.style.backgroundImage = "none";
