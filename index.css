@@ -1,0 +1,15 @@
+.body {
+  margin: 100px 100px;
+  background-color: rgb(53, 53, 53);
+  text-align: center;
+  color: aliceblue;
+}
+
+.id {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 40px;
+  margin: 100px;
+}
